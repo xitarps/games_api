@@ -1,0 +1,10 @@
+<h2>Games:</h2>
+
+<% @games.each do |game| %>
+  <p>
+    <%= game[:name] %> | 
+    <%= game[:genre] %>
+  </p>
+<% end %>
+
+

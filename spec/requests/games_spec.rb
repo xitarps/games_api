@@ -23,11 +23,11 @@ describe "api/v1/games" do
     it "renders a successful response" do
 
       minecraft = Game.create!(name: 'Minecraft', genre:'sandbox')
-      minecraft = JSON.parse(minecraft.to_json).deep_symbolize_keys
+      minecraft = json_hash(minecraft)
       cs = Game.create!(name: 'CS1.6', genre:'fps')
-      cs = JSON.parse(cs.to_json).deep_symbolize_keys
+      cs = json_hash(cs)
       bioshock = Game.create!(name: 'BioShock', genre:'foda')
-      bioshock = JSON.parse(bioshock.to_json).deep_symbolize_keys
+      bioshock = json_hash(bioshock)
 
       get api_v1_games_url, headers: valid_headers, as: :json
       hash_res = JSON.parse(response.body).deep_symbolize_keys

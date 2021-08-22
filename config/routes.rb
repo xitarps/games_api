@@ -9,4 +9,6 @@ Rails.application.routes.draw do
       resources :games
     end
   end
+
+  resources :games, only: %i[index]
 end
