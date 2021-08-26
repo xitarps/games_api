@@ -38,7 +38,7 @@ https://x-games-api.herokuapp.com/api/v1/games/
 
 ### Read all:
 
-[![Generic badge](https://img.shields.io/badge/Request-GET-gree.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Request-GET-blue.svg)](https://shields.io/)
 
 ```
 https://x-games-api.herokuapp.com/api/v1/games
@@ -75,7 +75,7 @@ https://x-games-api.herokuapp.com/api/v1/games
 
 ### Read one:
 
-[![Generic badge](https://img.shields.io/badge/Request-GET-gree.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Request-GET-blue.svg)](https://shields.io/)
 
 ```
 https://x-games-api.herokuapp.com/api/v1/games/:id
@@ -98,7 +98,7 @@ https://x-games-api.herokuapp.com/api/v1/games/:id
 
 ### Update:
 
-[![Generic badge](https://img.shields.io/badge/Request-PATCH-gree.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Request-PATCH-yellow.svg)](https://shields.io/)
 
 ```
 https://x-games-api.herokuapp.com/api/v1/games/:id
@@ -130,7 +130,7 @@ https://x-games-api.herokuapp.com/api/v1/games/:id
 
 ### Delete:
 
-[![Generic badge](https://img.shields.io/badge/Request-DELETE-gree.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Request-DELETE-red.svg)](https://shields.io/)
 
 ```
 https://x-games-api.herokuapp.com/api/v1/games/:id
