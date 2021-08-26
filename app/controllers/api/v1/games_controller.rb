@@ -36,6 +36,7 @@ class Api::V1::GamesController < Api::V1::ApiController
   # DELETE /games/1
   def destroy
     @game.destroy
+    render json: { message: 'excluido com sucesso'}
   end
 
   private
