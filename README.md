@@ -1,24 +1,40 @@
-# README
+# Games api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Essa é uma api de testes com tematica de jogos
 
-Things you may want to cover:
+## Rotas:
 
-* Ruby version
+### Read:
 
-* System dependencies
+[![Generic badge](https://img.shields.io/badge/Request-GET-gree.svg)](https://shields.io/)
 
-* Configuration
+```
+https://x-games-api.herokuapp.com/api/v1/games
+```
 
-* Database creation
+[![Ask Me Anything !](https://img.shields.io/badge/Response-ok-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```json
+{
+    "data": {
+        "games": [
+            {
+                "id": 4,
+                "name": "portal",
+                "genre": "puzzle",
+                "created_at": "2021-08-26T00:49:21.296Z",
+                "updated_at": "2021-08-26T00:49:21.296Z"
+            },
+            {
+                "id": 6,
+                "name": "Cs1.6",
+                "genre": "fps",
+                "created_at": "2021-08-26T00:51:19.409Z",
+                "updated_at": "2021-08-26T00:51:19.409Z"
+            }
+        ]
+    }
+}
+```

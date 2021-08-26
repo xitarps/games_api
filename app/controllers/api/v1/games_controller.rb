@@ -18,7 +18,7 @@ class Api::V1::GamesController < Api::V1::ApiController
     @game = Game.new(game_params)
 
     if @game.save
-      render json: @game, status: :created, location: @game
+      render json: @game, status: :created
     else
       render json: @game.errors, status: :unprocessable_entity
     end
