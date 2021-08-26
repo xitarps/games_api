@@ -1,13 +1,19 @@
 # Games api
 
-Essa é uma api de testes com tematica de jogos
+This is a game themed api.
 
-## Rotas:
+Essa é uma api de testes com temática de jogos.
+
+
+## API Entry Points:
 <hr>
 
-### Create:
+<details>
+  <summary>
+   Create
+  </summary>
 
-[![Generic badge](https://img.shields.io/badge/Request-POST-gree.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Request-POST-gree.svg)]('#')
 
 ```
 https://x-games-api.herokuapp.com/api/v1/games/
@@ -34,9 +40,14 @@ https://x-games-api.herokuapp.com/api/v1/games/
     "updated_at": "2021-08-26T02:08:45.920Z"
 }
 ```
+</details>
 <hr>
 
-### Read all:
+<details>
+  <summary>
+    Read all
+  </summary>
+
 
 [![Generic badge](https://img.shields.io/badge/Request-GET-blue.svg)](https://shields.io/)
 
@@ -70,10 +81,15 @@ https://x-games-api.herokuapp.com/api/v1/games
     }
 }
 ```
-
+</details>
 <hr>
 
-### Read one:
+
+
+<details>
+  <summary>
+   Read one
+  </summary>
 
 [![Generic badge](https://img.shields.io/badge/Request-GET-blue.svg)](https://shields.io/)
 
@@ -94,9 +110,15 @@ https://x-games-api.herokuapp.com/api/v1/games/:id
     "updated_at": "2021-08-26T00:49:21.296Z"
 }
 ```
+
+</details>
+
 <hr>
 
-### Update:
+<details>
+  <summary>
+    Update
+  </summary>
 
 [![Generic badge](https://img.shields.io/badge/Request-PATCH-yellow.svg)](https://shields.io/)
 
@@ -125,10 +147,15 @@ https://x-games-api.herokuapp.com/api/v1/games/:id
     "updated_at": "2021-08-26T02:19:40.302Z"
 }
 ```
+</details>
 <hr>
 
 
-### Delete:
+<details>
+  <summary>
+    Delete
+  </summary>
+
 
 [![Generic badge](https://img.shields.io/badge/Request-DELETE-red.svg)](https://shields.io/)
 
@@ -143,3 +170,4 @@ https://x-games-api.herokuapp.com/api/v1/games/:id
     "message": "excluido com sucesso"
 }
 ```
+</details>
