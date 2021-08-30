@@ -171,3 +171,10 @@ https://x-games-api.herokuapp.com/api/v1/games/:id
 }
 ```
 </details>
+<hr>
+<br>
+<br>
+
+## Consuming this API:
+
+https://github.com/xitarps/games_api_terminal
